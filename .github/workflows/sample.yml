@@ -16,4 +16,5 @@ jobs:
         -   name: Verify Tags
             run: |
                 echo "Using tag $TAG"
+                echo "Variable: ${{env.TAG}}"
                 
